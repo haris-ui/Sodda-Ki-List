@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soda Ki List</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Soda Ki List</h1>
+            <div class="controls">
+                <button id="new-list-btn">Make a New List</button>
+                <button id="view-list-btn">View Existing List</button>
+                <button id="lang-toggle-btn">Urdu</button>
+                <button id="screenshot-btn">Screenshot</button>
+            </div>
+        </header>
+        <main>
+            <div class="search-container">
+                <input type="text" id="search-bar" placeholder="Search for items...">
+            </div>
+            <div id="categories">
+                <!-- Categories will be dynamically loaded here -->
+            </div>
+            <div id="items">
+                <!-- Items will be dynamically loaded here -->
+            </div>
+            <div id="current-list">
+                <h2>My List</h2>
+                <ul id="list-items">
+                    <!-- List items will be added here -->
+                </ul>
+            </div>
+        </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
