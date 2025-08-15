@@ -236,8 +236,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         },
         saveState() {
-            // Note: localStorage is not available in Claude artifacts environment
-            // This would work in a real browser environment
             try {
                 localStorage.setItem('sodaKiListState', JSON.stringify(this.state));
             } catch (e) {
