@@ -9,11 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
             en: {
                 categories: {
                     kitchen: 'Kitchen',
-                    spices: 'Spices & Masala',
+                    spices: 'Spices',
                     snacks: 'Snacks',
                     beverages: 'Beverages',
                     fruits_vegetables: 'Fruits & Vegetables',
-                    meat_poultry: 'Meat & Poultry',
+                    meat_poultry: 'Meat',
                     dairy: 'Dairy & Eggs',
                     grains_pulses: 'Grains & Pulses',
                     noodles_pasta: 'Noodles & Pasta',
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     snacks: 'نمکین',
                     beverages: 'مشروبات',
                     fruits_vegetables: 'پھل اور سبزیاں',
-                    meat_poultry: 'گوشت اور مرغی',
+                    meat_poultry: 'گوشت',
                     dairy: 'دودھ اور انڈے',
                     grains_pulses: 'اناج اور دالیں',
                     noodles_pasta: 'نوڈلز اور پاستا',
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     beverages: ['ٹینگ', 'جام شیریں', 'روح افزا', 'سافٹ ڈرنکس', 'چائے', 'کافی', 'دودھ', 'فروٹ جوس', 'انرجی ڈرنک', 'پانی'],
                     fruits_vegetables: ['سیب', 'کیلے', 'سنتری', 'آم', 'انگور', 'گاجر', 'آلو', 'پیاز', 'ٹماٹر', 'ادرک', 'لہسن', 'ہری مرچ', 'پودینہ', 'دھنیا', 'پالک', 'بھنڈی', 'پھول گوبھی'],
                     meat_poultry: ['چکن', 'گائے کا گوشت', 'مٹن', 'مچھلی', 'جھینگا', 'قیمہ', 'چکن کڑاہی کٹ', 'بونلیس بیف'],
-                    dairy: ['دودھ', 'دہی', 'پنیر', 'مکھن', 'انڈے', 'کریم', 'کھویا', 'پنیر'],
+                    dairy: ['دودھ', 'دہی', 'مکھن', 'انڈے', 'کریم', 'کھویا', 'پنیر'],
                     grains_pulses: ['بادشاہی چاول', 'عام چاول', 'گندم کا آٹا', 'بیسن', 'دال', 'چنے', 'کالا چنا', 'راجمہ', 'سوجی', 'مکئی کا آٹا'],
                     noodles_pasta: ['میگی نوڈلز', 'نار نوڈلز', 'شان نوڈلز', 'پاستا', 'میکرونی', 'سیویاں', 'کوریائی نوڈلز'],
                     cleaning_household: ['ڈٹرجنٹ', 'فرش کلینر', 'گلاس کلینر', 'ٹوائلٹ پیپر', 'صابن', 'شیمپو', 'ٹوتھ پیسٹ', 'فیبرک سافٹنر', 'بلیچ'],
@@ -257,4 +257,5 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     app.init();
+
 });
