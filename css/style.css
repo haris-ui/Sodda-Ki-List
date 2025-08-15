@@ -62,12 +62,25 @@ header h1 {
     transition: background-color 0.3s ease, transform 0.2s ease, color 0.2s ease;
     border-radius: 12px;
 }
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    color: var(--font-color);
+    opacity: 0.8;
+}
+
+footer span {
+    font-weight: 600;
+    color: var(--primary-color);
+}
 
 .controls button:hover {
     background: var(--primary-color-white);
     transform: translateY(-2px) scale(1.03);
-     background-color: var(--primary-color-dark); /* Purple hover */
-    color: white; /* Force white text */
+     background-color: var(--primary-color-dark); 
+    color: white; 
     transform: translateY(-2px);
 }
 
